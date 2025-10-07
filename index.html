@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 class="text-center bg-success text-warning">Omolo Family Tree</h1>
+  <div>
+    <h4>Key</h4>
+    <ul>
+      <li class="text-primary">
+        <h4>Text in blue - Grandparents or Great Grandparents</h4>
+      </li>
+      <li>
+        <h4>Text in black - Children of Rhoda & Omolo or Grandparents</h4>
+      </li>
+      <li class="text-warning">
+        <h4>Text in yellow - Husbands or Wifes of Children of Rhoda & Omolo</h4>
+      </li>
+      <li class="text-secondary">
+        <h4>Text in grey - Cousins & Grandchildren of Rhoda & Omolo</h4>
+      </li>
+      <li class="text-info">
+        <h4>Text in turquoise - Husbands or Wifes of Grandchildren of Rhoda & Omolo</h4>
+      </li>
+      <li class="text-success">
+        <h4>Text in green - Great Grandchildren of Rhoda & Omolo</h4>
+      </li>
+    </ul>
+  </div>
+  <section class="container-fluid">
+    <section class="row">
+      <div class="col-6">
+        <div class="d-flex">
+          <img src="{{url_for('static', filename = 'potrait.jpg')}}" class="rounded-circle" style="width: 100px; height: 100px;">
+          <button><a href="babu.html">
+              <h3 class="text-primary">Albert Auki Omolo</h3>
+            </a></button>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="d-flex">
+          <img src="{{url_for('static', filename = 'rhodaimage.jpg')}}" class="rounded-circle" style="width: 100px; height: 100px;">
+          <h3 class="text-primary">Rhoda Owuor Alego</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Jack's famliy -->
+    <div class="row border border-danger border-3">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="{{url_for('static', filename = 'uncle jack.png')}}" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3>Jacton Ochieng</h3>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-warning">Carol Achieng</h3>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="d-flex">
+            <img src="{{url_for('static', filename= 'Jusho.png')}}" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Lawerence Omolo Jusho</h3>
+            <img src="" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info">Fernanda Andrea Omolo</h3>
+          </div>
+          <div class="d-flex">
+            <img src="" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Zion Nataniel Isaya Omolo</h3>
+            <img src="" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Loreah Naomi Imora Omolo</h3>
+            <img src="" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Amayah Amoateng Omolo</h3>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="d-flex">
+            <img src="{{url_for('static', filename='Rhoda1.jpg')}}" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Rhoda Owuor</h3>
+            <img src="" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info">Rhoda Husband</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Joseph's family -->
+    <div class="row border border-warning border-3">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="{{url_for('static', filename='Joseph1.jpg')}}" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3>Joseph Daniel Olewe</h3>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="{{url_for('static', filename='mj.png')}}" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-warning">Joyce Aoko MJ</h3>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="d-flex">
+            <img src="jay.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Jairus Owino</h3>
+            <img src="Jane.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info">Jane</h3>
+          </div>
+          <div class="d-flex">
+            <img src="Eroma.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Eroma</h3>
+            <img src="Amori.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Amori</h3>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="d-flex">
+            <img src="Shaby.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Sharon Akinyi</h3>
+            <img src="Gemo.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info">Gemo</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Pamela's family -->
+    <div class="row border border-primary border-3">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="Auntie-pam.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-dark">Pamela Adiambo</h3>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="Uncle lawrence.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-warning">Lawrence Aguka</h3>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row p-3">
+        <div class="col-3 me-4">
+          <div class="d-flex">
+            <img src="Lofty.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Lofty Lousie Aching</h3>
+            <img src="lofty-husbandimage.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info"></h3>
+          </div>
+          <div class="d-flex">
+            <img src="theo.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Theo</h3>
+            <img src="evar.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Evar</h3>
+          </div>
+        </div>
+        <div class="col-3 me-4">
+          <div class="d-flex">
+            <img src="Oli.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Oliver Omondi Oli</h3>
+            <img src="naomi.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info">Naomi</h3>
+          </div>
+          <div class="d-flex">
+            <img src=".png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Jayden</h3>
+            <img src=".png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Pamela Supa</h3>
+          </div>
+        </div>
+        <div class="col-3 me-4">
+          <div class="d-flex">
+            <img src="cameron.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Cameron</h3>
+            <img src="#" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info"></h3>
+            <img src="collo.png" class="rounded-circle" style="width: 90px; height: 90px;">
+            <h3 class="text-secondary p-3">Collins Collo</h3>
+          </div>
+          <div class="d-flex">
+            <img src="Rannes.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Raness</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Eunice's family -->
+    <div class="row border border-dark border-3">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="auntieUu.png" class="rounded-circle" style="width: 120px; height: 120px;">
+            <h3>Eunice Akoth</h3>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="uncle-odima.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-warning">Joseph Odima</h3>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="d-flex">
+            <img src="Ken.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Ken Walker</h3>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="d-flex">
+            <img src="bishop.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Bishop</h3>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="d-flex">
+            <img src="keith.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Keith Silvernail</h3>
+            <img src="nathalie.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info">Nathalie</h3>
+          </div>
+          <div class="d-flex">
+            <img src="keith-silvernail-daughter.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">
+              SYRA ZOE ROSE ODIMA</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Sylvester's family -->
+    <div class="row border border-success border-3">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="dad.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3>Sylvester Onyango</h3>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="mum.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-warning">Winfred Wamuyu Gathigia</h3>
+          </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="d-flex">
+            <img src="rodney.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Rodney Ochieng</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex">
+            <img src="roda.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Rhoda Achieng</h3>
+            <img src="ronnie.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-info">Ronnie Nyabuto</h3>
+          </div>
+          <div class="d-flex">
+            <img src="tawi.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-success">Tawi Nyabuto</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex">
+            <img src="qwe.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Qwe Lawi</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex">
+            <img src="Jabali.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Jabali Auki</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex">
+            <img src="tendai.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Tendai Gichuhi</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Albert's family -->
+    <div class="row border border-grey border-3">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="uncleali.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3>Albert Auki</h3>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="d-flex">
+            <img src="Auntie-tina.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-warning">Tina</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <div class="d-flex">
+            <img src="ian.png" class="rounded-circle" style="width: 100px; height: 100px;">
+            <h3 class="text-secondary">Ian Omondi Auki</h3>
+          </div>
+        </div>
+        <div class="col-4" </div>
+        </div>
+  </section>
+
+
+
+
+
+
+  <!-- bootstrap link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
